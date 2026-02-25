@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.3s;
+}
+
+.navbar img {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    padding: 10px;
+    height: 100px;
+    gap: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4px;
+
+    padding: 10px 0;
+    gap: 100px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: 0.3;
+    white-space: nowrap;
+}
+
+.navbar ul li a:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.test {
+    opacity: 0;
+}
