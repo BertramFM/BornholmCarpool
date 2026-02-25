@@ -1,0 +1,44 @@
+.FrontPageMain {
+    background-image: url(../images/bornholm.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100%;
+    padding: 250px;
+    transition: 0.3s;
+}
+
+.FrontPageMain ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+    height: 100%;
+    gap: 30px;
+}
+
+.FrontPageMain ul li {
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.FrontPageMain ul li button {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    margin-top: 32px;
+    padding: 12px 42px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.FrontPageMain ul li button:hover {
+    background-color: lightgray;
+    color: #000000;
+}
