@@ -2,7 +2,8 @@
     background-image: url(../images/bornholm.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     height: 100%;
     padding: 250px;
     transition: 0.3s;

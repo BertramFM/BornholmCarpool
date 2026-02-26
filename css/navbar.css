@@ -1,11 +1,15 @@
+body {
+    margin: 0;
+}
+
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 260px;
 
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
     transition: 0.3s;
 }
 
@@ -31,14 +35,14 @@
     letter-spacing: 4px;
 
     padding: 10px 0;
-    gap: 100px;
+    gap: 40px;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: black;
     padding: 5px 10px;
-    transition: 0.3;
+    transition: 0.3s;
     white-space: nowrap;
 }
 
@@ -49,4 +53,16 @@
 
 .test {
     opacity: 0;
+}
+
+@media (max-width: 900px) {
+    .navbar ul {
+        font-size: 25px;
+        gap: 20px;
+    }
+
+    .navbar img {
+        height: 70px;
+        padding-right: 1rem;
+    }
 }
