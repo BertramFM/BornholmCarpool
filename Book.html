@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/frontpagemain.css">
+    <link rel="stylesheet" href="css/bookUdlej.css">
 
 </head>
 
@@ -30,5 +31,45 @@
             </ul>
         </div>
     </header>
+
+    <div class="booking-container background">
+
+        <form class="booking-form" action="BookingAffirm.html">
+
+            <!-- FRA -->
+            <div class="form-group">
+                <label for="from">FRA:</label>
+                <select id="from" name="from">
+                    <option>Rønne</option>
+                    <option>Åkirkeby</option>
+                    <option>Gudhjem</option>
+                    <option>Nexø</option>
+                    <option>Svanneke</option>
+                    <option>Allinge</option>
+                    <option>Tejn</option>
+                </select>
+            </div>
+
+            <!-- DATO -->
+            <div class="form-group">
+                <label for="date">DATO:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+
+            <!-- TUR/RETUR -->
+            <div class="form-group checkbox-group">
+                <label>
+                    <input type="checkbox" name="return">
+                    Retur Billet
+                </label>
+            </div>
+
+            <button type="submit" class="book-btn">
+                FIND TIDER
+            </button>
+        </form>
+
+    </div>
 </body>
 </html>

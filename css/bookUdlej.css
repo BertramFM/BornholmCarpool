@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: "Poppins", serif;
+    background-color: white;
+}
+
+.booking-container {
+    padding: 20px;
+}
+
+.booking-form {
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 8px;
+
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select, input[type=date] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-btn {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: grey;
+}
+
+@media (min-width: 768px) {
+    .booking-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .booking-form {
+        width: 600px;
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .checkbox-group, .book-btn {
+        grid-column: span 2;
+    }
+
+}
